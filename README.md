@@ -1,5 +1,7 @@
 # Reverse Shell File Infiltration Tool
 
+## **IMPORTANT: This tool currently only supports file infiltration**
+
 ## Overview
 
 This program is a simple Linux tool that allows files to be infiltrated into Windows and Linux systems through a reverse shell. The current development state only supports file uploads to the target system, while **file exfiltration is not yet implemented**. The program leverages active reverse shells to transmit files by simulating user input.
