@@ -107,7 +107,7 @@ void uploadFileWindows(int fd, const char encodedBufferArray[][291], int arraySi
 
 void uploadFileLinux(int fd, const char encodedBufferArray[][291], int arraySize) {
 	// echo "290" >> TEMPFILE
-	// cat TEMPFILE | base64 -d > RFILE    // einmalig
+	// cat TEMPFILE | base64 -d > RFILE  
 	char *temp = (char *)malloc(310);
 	for (int i = 0; i < arraySize; ++i) {
 		strncpy(temp, "echo \"", 7);
