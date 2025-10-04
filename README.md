@@ -18,7 +18,7 @@ This program is a simple Linux tool that allows files to be infiltrated into Win
 
 ## Installation
 
-To compile the program, execute the following commands:
+To compile the program, execute the following commands AS ROOT:
 
 ```
 gcc -c base64.c -o base.o
